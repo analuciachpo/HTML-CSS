@@ -1,0 +1,17 @@
+.list1 {
+    list-style: none;
+}
+
+.list1 > li::before {
+    content: "\2714";
+    margin: 0 1px 0 -2px;
+}
+
+.list2 {
+    list-style: none;
+}
+.list2 > li::before {
+    content: "\2726";
+    margin: 0 1px 0 -2px;
+    color: rgb(70, 192, 151);
+}

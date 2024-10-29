@@ -1,0 +1,21 @@
+#contenedor1 {
+    background-color: lightblue; 
+    height: 300px; margin: 10px; width: 300px
+}
+#contenedor1 :nth-child(2){ background-color: black;}
+
+#contenedor2 {
+    background-color: lightcoral; 
+    height: 300px; margin: 10px; width: 300px
+}
+#contenedor2 :nth-child(3){ background-color: black;}
+#contenedor2 p:hover, h1:hover {
+    text-shadow: 3px 3px rgb(59, 97, 202)  
+}
+#contenedor2 div:hover{
+    box-shadow: 3px 3px rgb(59, 97, 202) 
+}
+.boton {
+    background-color: rgb(236, 52, 227); height: 30px; margin: 10px; width: 150px;
+}
+.boton:hover {opacity: 0.2;}

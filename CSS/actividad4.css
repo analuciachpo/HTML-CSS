@@ -1,0 +1,6 @@
+h2 + p {
+    background-color: yellow;
+}
+.contenido > p {color: blue;}
+.contenido p ~ p{font-size: 12px;}
+

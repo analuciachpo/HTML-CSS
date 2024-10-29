@@ -1,0 +1,21 @@
+h1{color: brown;}
+h3{color: burlywood;}
+
+#id_contenedor_quien_eres legend { background-color:rgb(255, 159, 124); color:white;}
+#id_contenedor_quien_eres{ background-color:rgb(255, 159, 124);} 
+
+#id_contenedor_de_donde_eres legend { background-color:rgb(165, 235, 159); color:white;}
+#id_contenedor_de_donde_eres{ background-color:rgb(165, 235, 159); } 
+
+#id_contenedor_inicio_sesion legend { background-color:rgb(212, 125, 183); color:white;}
+#id_contenedor_inicio_sesion{ background-color:rgb(212, 125, 183);} 
+
+#id_contenedor_condiciones legend { background-color:rgb(218, 157, 170); color:white;} 
+#id_contenedor_condiciones{ background-color:rgb(218, 157, 170);color:white;} 
+
+
+.clase_texto{color:rgb(67, 65, 94);} 
+.clase_fecha{color: rgb(151, 231, 198);} 
+.clase_select{color: rgb(70, 16, 87);} 
+.clase_opciones{color: rgb(189, 31, 31);} 
+#id_botón_crear_cuenta {background-color: rgb(110, 112, 211);}
