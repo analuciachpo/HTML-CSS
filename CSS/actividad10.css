@@ -1,18 +1,15 @@
-/* 
-paleta color:
-#DFF2EB
-#B9E5E8
-#7AB2D3
-#4A628A
-*/
 
 body {
     background-image: linear-gradient(90deg, rgba(122,178,211,1) 35%, rgba(74,98,138,1) 100%);}
 
-main{display:inline-block}
+nav ul{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
 
 nav li {
-    display:inline-block ;
     background-color: #B9E5E8;
     padding-left: 30px;
     padding-right: 30px;
@@ -23,18 +20,23 @@ nav li {
     margin-bottom: 1px;
 }
 
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 section{
-    display:inline-block ;
     background-color: #7AB2D3; width:50% ;
 }
 
 aside{
-    display:inline-block ;
     background-color:#7AB2D3 ;
-    width:40% ;
+    width:25% ;
+    height: 370px;
 }
 aside li{
-    display:inline-block ;
     background-color: #B9E5E8;
     padding-left: 10px;
     padding-right: 10px;
@@ -45,10 +47,13 @@ aside li{
     margin-bottom: 10px;
 }
 
-aside li{
+aside ul{
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 aside li::before {
     content: "\0023";
-    margin: 0 15px 0 -2px;
+    margin-right: 10px;
 }
