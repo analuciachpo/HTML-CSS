@@ -1,0 +1,43 @@
+body{ display: block;
+}
+
+nav li {
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style: none;
+    margin: auto;
+    width: ;
+}
+
+
+nav li {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+section {
+    display: inline-block;
+    width: 80%;
+    margin-right: 20px;
+}
+
+aside {
+    display: inline-block;
+    width: 20%;
+}
+
+#base { background-color: lightskyblue;
+display: flex;
+flex-direction: column;
+text-align: center;
+}
