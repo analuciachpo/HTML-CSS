@@ -5,7 +5,7 @@
     nav ul{
         display:flex;
         flex-direction: column;
-        justify-content: ;
+        justify-content: flex ;
         list-style: none;
     }
     
